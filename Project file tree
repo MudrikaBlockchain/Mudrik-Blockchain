@@ -1,0 +1,47 @@
+mudrika-frontend/
+├─ package.json
+├─ next.config.js
+├─ tsconfig.json
+├─ tailwind.config.js
+├─ postcss.config.js
+├─ public/
+│  ├─ logo.svg
+│  └─ logo-hero.png
+├─ styles/
+│  └─ globals.css
+├─ app/
+│  ├─ layout.tsx
+│  ├─ page.tsx
+│  ├─ dashboard/
+│  │  └─ page.tsx
+│  ├─ faucet/
+│  │  └─ page.tsx
+│  ├─ miner/
+│  │  └─ page.tsx
+│  ├─ dao/
+│  │  └─ page.tsx
+│  └─ api/
+│     └─ mine/route.ts
+├─ components/
+│  ├─ WalletProvider.tsx
+│  ├─ WalletButton.tsx
+│  ├─ TopNav.tsx
+│  ├─ BlocksFeed.tsx
+│  ├─ TxFeed.tsx
+│  ├─ UTXOVisualizer.tsx
+│  ├─ FaucetForm.tsx
+│  ├─ TransferForm.tsx
+│  ├─ MinerPanel.tsx
+│  └─ DAOProposalCard.tsx
+├─ hooks/
+│  ├─ useBlocks.ts
+│  ├─ useTxs.ts
+│  └─ useUTXO.ts
+├─ lib/
+│  ├─ wagmiClient.ts
+│  └─ viemClient.ts
+├─ store/
+│  └─ useStore.ts
+├─ design/
+│  └─ figma_spec.json
+└─ README.md

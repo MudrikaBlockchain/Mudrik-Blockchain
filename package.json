@@ -1,0 +1,35 @@
+{
+  "name": "mudrika-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.1.6",
+    "viem": "1.0.0",
+    "wagmi": "1.2.0",
+    "@wagmi/core": "1.2.0",
+    "@walletconnect/web3-provider": "1.7.8",
+    "ethers": "6.9.0",
+    "zustand": "4.4.0",
+    "@tanstack/react-query": "5.0.0",
+    "recharts": "2.3.2",
+    "socket.io-client": "4.7.2",
+    "react-hot-toast": "2.4.0",
+    "react-hook-form": "7.45.1",
+    "framer-motion": "10.12.16",
+    "lucide-react": "0.271.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.14",
+    "postcss": "8.4.24",
+    "tailwindcss": "4.3.2"
+  }
+}

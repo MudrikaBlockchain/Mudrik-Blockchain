@@ -1,0 +1,16 @@
+{
+  "name": "Mudrikā Design Tokens",
+  "colors": {
+    "primary": "#FF7A18",
+    "primary-700": "#D85F12",
+    "bg": "#0F1724",
+    "card": "#0B1220",
+    "muted": "#94A3B8"
+  },
+  "typography": {
+    "heading": "Poppins, 700, 24px",
+    "body": "Inter, 400, 16px",
+    "mono": "JetBrains Mono, 400, 13px"
+  },
+  "components": ["card", "button", "input", "badge", "chart", "treemap"]
+}
